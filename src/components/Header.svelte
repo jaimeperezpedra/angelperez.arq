@@ -28,7 +28,7 @@
       <a
         style="font-size: {fontSize}"
         class="text-6xl text-white mix-blend-difference hover:text-gray-500 ease-linear duration-500 transition-colors"
-        href="/">ÁNGEL PÉREZ STUDIO.</a
+        href="">ÁNGEL PÉREZ STUDIO.</a
       >
     </div>
     <div class="">
