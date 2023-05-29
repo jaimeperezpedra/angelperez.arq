@@ -33,7 +33,7 @@
     </div>
     <div class="">
       <a
-        href="/works"
+        href="works"
         class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
       >
         Work</a
