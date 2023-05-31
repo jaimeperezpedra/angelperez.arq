@@ -1,6 +1,6 @@
 <script>
-  import { goto } from '$app/navigation';
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
   let y = 0;
   let screenSize = 0;
   let fontSize = '1.5rem';
@@ -27,18 +27,18 @@
   <nav class="grid grid-cols-3 w-full text-xl md:text-2xl">
     <a
       style="font-size: {fontSize}"
-      href="/"
+      href="{base}/"
       class="text-6xl text-white mix-blend-difference hover:text-gray-500 ease-linear duration-500 transition-colors"
       >ÁNGEL PÉREZ STUDIO.</a
     >
     <a
-      href="/works"
+      href="{base}/works"
       class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
     >
       Work</a
     >
     <a
-      href="#about"
+      href="{base}#about"
       class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
     >
       About</a
