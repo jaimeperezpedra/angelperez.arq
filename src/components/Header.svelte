@@ -27,7 +27,7 @@
   <nav class="grid grid-cols-3 w-full text-xl md:text-2xl">
     <a
       style="font-size: {fontSize}"
-      href="/#"
+      href="/"
       class="text-6xl text-white mix-blend-difference hover:text-gray-500 ease-linear duration-500 transition-colors"
       >ÁNGEL PÉREZ STUDIO.</a
     >
