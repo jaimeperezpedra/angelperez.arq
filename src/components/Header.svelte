@@ -25,30 +25,23 @@
   class="flex gap-10 font-medium fixed w-full p-4 z-10 mix-blend-difference"
 >
   <nav class="grid grid-cols-3 w-full text-xl md:text-2xl">
-    <div>
-      <a
-        style="font-size: {fontSize}"
-        class="text-6xl text-white mix-blend-difference hover:text-gray-500 ease-linear duration-500 transition-colors"
-        href="/"
-        on:click|preventDefault={() => goto('/')}>ÁNGEL PÉREZ STUDIO.</a
-      >
-    </div>
-    <div class="">
-      <a
-        href="/works"
-        on:click|preventDefault={() => goto('/works')}
-        class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
-      >
-        Work</a
-      >
-    </div>
-    <div class="">
-      <a
-        href="#about"
-        class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
-      >
-        About</a
-      >
-    </div>
+    <a
+      style="font-size: {fontSize}"
+      href="/#"
+      class="text-6xl text-white mix-blend-difference hover:text-gray-500 ease-linear duration-500 transition-colors"
+      >ÁNGEL PÉREZ STUDIO.</a
+    >
+    <a
+      href="/works"
+      class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
+    >
+      Work</a
+    >
+    <a
+      href="#about"
+      class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
+    >
+      About</a
+    >
   </nav>
 </header>
