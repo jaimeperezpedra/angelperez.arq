@@ -7,7 +7,7 @@
   <div
     class="grid grid-cols-1 md:grid-cols-3 text-lg pb-10 text-center md:text-left"
   >
-    <a href="/" class="text-xl">WANT TO WORK TOGETHER?</a>
+    <a href="#" class="text-xl">WANT TO WORK TOGETHER?</a>
     <ul class="flex flex-col items-center py-10 md:block md:py-0">
       <li class="flex">
         <a href="https://www.instagram.com/angelperezarq/" target="_blank">
@@ -44,7 +44,7 @@
   </div>
   <div class="grid grid-cols-1 md:grid-cols-3">
     <a
-      href="/"
+      href="#"
       class="col-span-2 text-2xl md:text-5xl xl:text-9xl text-center md:text-left pb-10 md:pb-0 break-words"
       >info@angelperez.studio</a
     >
