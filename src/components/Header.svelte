@@ -1,4 +1,5 @@
 <script>
+  import { goto } from '$app/navigation';
   import { onMount } from 'svelte';
   let y = 0;
   let screenSize = 0;
@@ -28,12 +29,14 @@
       <a
         style="font-size: {fontSize}"
         class="text-6xl text-white mix-blend-difference hover:text-gray-500 ease-linear duration-500 transition-colors"
-        href="">ÁNGEL PÉREZ STUDIO.</a
+        href="/"
+        on:click|preventDefault={() => goto('/')}>ÁNGEL PÉREZ STUDIO.</a
       >
     </div>
     <div class="">
       <a
-        href="works"
+        href="/works"
+        on:click|preventDefault={() => goto('/works')}
         class="text-white hover:text-gray-500 ease-linear duration-500 transition-colors"
       >
         Work</a
